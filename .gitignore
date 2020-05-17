@@ -36,14 +36,8 @@ sysinfo.txt
 *.stackdump
 *.log
 *.unitypackage
-
-# Switch
-# ===============
-/SwitchIL2CPPCache/
-/SwitchIL2CPPStats/
-*.nsp
-*.nss
-/BuildReports/
+*.png
+*.dat
 
 # pi
 # ===============
