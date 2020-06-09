@@ -11,15 +11,15 @@ namespace Interface
 	/// </summary>
 	public class MainPanel : Singleton<MainPanel>
 	{
-		[SerializeField] NewItemPanel newItemPanel;
+		[SerializeField] NewItemWindow newItemWindow;
 		[SerializeField] SortWindow sortWindow;
 		[SerializeField] EditWindow editWindow;
 
 
 		public void OpenNewItemPanel()
 		{
-			if (!newItemPanel.isOpened)
-				newItemPanel.OpenWindow();
+			if (!newItemWindow.isOpened)
+				newItemWindow.OpenWindow();
 		}
 
 		public void OpenSortPanel()
