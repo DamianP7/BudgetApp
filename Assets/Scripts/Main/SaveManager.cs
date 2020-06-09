@@ -4,9 +4,11 @@ using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine;
 
+/// <summary>
+/// Manager odpowiedzialny za zapisywanie pliku i wczytywanie danych.
+/// </summary>
 public class SaveManager : Singleton<SaveManager>
 {
-
 	public void Save(List<Item> items)
 	{
 		FileStream fs = new FileStream("save.dat", FileMode.Create);

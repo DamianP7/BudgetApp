@@ -9,4 +9,5 @@ public enum Categories
 	Jedzenie = 1,
 	Rozrywka = 2,
 	Rachunki = 3,
+	Podroze = 4,
 }

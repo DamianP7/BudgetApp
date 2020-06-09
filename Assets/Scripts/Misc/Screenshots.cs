@@ -4,6 +4,9 @@ using UnityEngine;
 
 namespace Utils
 {
+	/// <summary>
+	/// Prosta klasa ułatwiająca robienie screenshotów aplikacji
+	/// </summary>
 	public class Screenshots : MonoBehaviour
 	{
 		public KeyCode screenKey;

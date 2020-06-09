@@ -5,8 +5,11 @@ using System.Net.Sockets;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Panel
+namespace Interface
 {
+	/// <summary>
+	/// Wyświetlanie i zarządzanie widocznymi wpisami
+	/// </summary>
 	public class ItemsListPanel : MonoBehaviour
 	{
 		[Header("Variables")]

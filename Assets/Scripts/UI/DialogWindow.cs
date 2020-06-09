@@ -3,6 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Klasa ułatwiająca tworzenie wyświetlanych okienek.
+/// </summary>
 [RequireComponent(typeof(CanvasGroup))]
 public abstract class DialogWindow : MonoBehaviour
 {

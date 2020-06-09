@@ -5,6 +5,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
 
+/// <summary>
+/// Lista rozwijana tworzona w z Enuma
+/// </summary>
 public class CustomDropdown : Dropdown
 {
 	public Categories captionType

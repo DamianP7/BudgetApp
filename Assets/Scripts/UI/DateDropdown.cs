@@ -4,6 +4,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Klasa do wyświetlania i edycji dat za pomocą trzech list rozwijanych
+/// </summary>
 public class DateDropdown : MonoBehaviour
 {
 	public DateTime date

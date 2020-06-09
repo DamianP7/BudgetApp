@@ -1,10 +1,13 @@
-﻿using Panel;
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Interface;
 
+/// <summary>
+/// Główna klasa aplikacji.
+/// </summary>
 public class MainManager : Singleton<MainManager>
 {
 	[SerializeField] ItemsListPanel listPanel;
@@ -105,8 +108,8 @@ public class MainManager : Singleton<MainManager>
 		items.Clear();
 		foreach (var item in allItems)
 		{
-			if (DateTime.Compare(item.date, from) > 0 &&
-				DateTime.Compare(item.date, to) < 0)
+			if (DateTime.Compare(item.date, from) >= 0 &&
+				DateTime.Compare(item.date, to) <= 0)
 				items.Add(item);
 		}
 		selected.text = from.ToEuropeanShortString() + " - " + to.ToEuropeanShortString();

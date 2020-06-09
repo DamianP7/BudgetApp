@@ -3,7 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
+/// <summary>
+/// Klasa przechowująca dane jednego wpisu
+/// </summary>
 [System.Serializable]
 public class Item
 {

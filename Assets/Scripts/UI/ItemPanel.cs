@@ -4,8 +4,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Panel
+namespace Interface
 {
+	/// <summary>
+	/// Klasa wyświetlająca wpis
+	/// </summary>
 	public class ItemPanel : MonoBehaviour
 	{
 		[SerializeField] Text itemName;
